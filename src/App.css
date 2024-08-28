@@ -4,6 +4,8 @@
 
 .App {
   text-align: center;
+  font-family: 'Nexa', sans-serif;
+  font-family: 'Averta', sans-serif;
 }
 
 .App-logo {
@@ -11,6 +13,14 @@
   pointer-events: none;
 }
 
+p {
+  font-family: 'Nexa', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-family: 'Averta', sans-serif;
+  font-weight: bold;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
