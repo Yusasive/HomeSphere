@@ -8,7 +8,7 @@ const MainContent = () => {
     <div className="flex flex-col lg:flex-row px-8 pt-2 md:pt-0">
       <div className="lg:w-[50%] relative lg:fixed h-full">
         <img
-          className="md:ml-8  w-full h-96 md:w-full md:h-full bg-[#f5f4f0] rounded-lg lg:rounded-none"
+          className="md:ml-8  w-full h-[34rem] md:w-full md:h-full bg-[#f5f4f0] rounded-lg lg:rounded-none"
           src="https://th.bing.com/th/id/OIP.voVmH_P-WhYnjVZYb-WUhwHaHa?w=176&h=180&c=7&r=0&o=5&pid=1.7"
           alt="Home"
         />

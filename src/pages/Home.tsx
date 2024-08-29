@@ -9,7 +9,7 @@ const MainContent = () => {
       <div className="lg:w-[50%] relative lg:fixed h-full">
         
           <video
-            className="border-4 border-[#f5f4f0] shadow-lg shadow-[#f5f4f0]  md:ml-8  w-full h-96 md:w-full md:h-full bg-[#f5f4f0] rounded-lg lg:rounded-none"
+            className="border-4 border-[#f5f4f0] shadow-lg shadow-[#f5f4f0]  md:ml-8  w-full h-[34rem] md:w-full md:h-full bg-[#f5f4f0] rounded-lg lg:rounded-none"
             src="https://res.cloudinary.com/ddxssowqb/video/upload/v1724715846/_Comma__motion_graphics_kqlpvi.mp4"
             controls
             autoPlay

@@ -8,7 +8,7 @@ import FooterLeft from "../components/FooterLeft";
 const MainContent = () => {
   return (
     <div className="flex flex-col lg:flex-row px-8 md:pl-16 pt-2 md:pt-0">
-      <div className="w-full md:w-[75%] lg:w-[50%] relative lg:fixed h-96 md:h-96">
+      <div className="w-full md:w-[75%] lg:w-[50%] relative lg:fixed h-[34rem] md:h-96">
         <Carousel
           showThumbs={false}
           autoPlay
@@ -16,21 +16,21 @@ const MainContent = () => {
           showStatus
           interval={4000}
           transitionTime={500}>
-          <div className="h-96 md:h-full">
+          <div className="h-[34rem] md:h-full">
             <img
               src="https://th.bing.com/th?id=OIP.nyLAzWYdvc-wb9ntq1cU7QHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2"
               alt="Image1"
               className="w-full h-full object-cover bg-[#f5f4f0]"
             />
           </div>
-          <div className="h-96 md:h-full">
+          <div className="h-[34rem] md:h-full">
             <img
               src="https://th.bing.com/th/id/OIP.8SXzYjtNYalr9QJRQRNvZgHaHa?w=201&h=201&c=7&r=0&o=5&pid=1.7"
               alt="Image2"
               className="w-full h-full object-cover bg-[#f5f4f0]"
             />
           </div>
-          <div className="h-96 md:h-full">
+          <div className="h-[34rem] md:h-full">
             <img
               src="https://th.bing.com/th/id/OIP.voVmH_P-WhYnjVZYb-WUhwHaHa?w=176&h=180&c=7&r=0&o=5&pid=1.7"
               alt="Image3"

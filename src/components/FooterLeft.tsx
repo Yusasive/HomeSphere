@@ -1,6 +1,6 @@
 import React from "react";
 import PushEat from "../assets/PushEat.png";
-import LogoImage from "../assets/Logo.png";
+import LogoImage from "../assets/Logo.svg";
 
 const FooterLeft = () => {
   return (
@@ -226,7 +226,7 @@ const FooterLeft = () => {
       {/* Logo Text */}
       <div className="lg:hidden flex font-sans ml-6 mt-4 justify-between">
         <div className="flex">
-          <img src={LogoImage} alt="Viking" className="w-24 h-auto" />
+          <img src={LogoImage} alt="Viking" className="w-auto h-auto" />
         </div>
         <div className="flex flex-row space-x-2 justify-end mr-4">
           {" "}
