@@ -1,6 +1,6 @@
 import React from "react";
 import PushEat from "../assets/PushEat.png";
-import LogoImage from "../assets/Logo.svg";
+import LogoImage from "../assets/Logo.png";
 
 const FooterLeft = () => {
   return (
