@@ -1,6 +1,6 @@
 import React from "react";
 import PushEat from "../assets/PushEat.png";
-import LogoImage from "../assets/Logo.svg";
+import LogoImage from "../assets/Logo.png";
 
 const FooterLeft = () => {
   return (
@@ -8,7 +8,7 @@ const FooterLeft = () => {
       {/* Social Icons */}
       <div className="hidden lg:flex lg:flex-col lg:space-y-4 space-x-4 lg:space-x-0">
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/company/pusheat/?viewAsMember=true"
           target="_blank"
           rel="noopener noreferrer">
           <svg
@@ -62,7 +62,7 @@ const FooterLeft = () => {
             </defs>
           </svg>
         </a>
-        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.tiktok.com/@justpusheat" target="_blank" rel="noopener noreferrer">
           <svg
             width="33.33"
             height="33.33"
@@ -104,7 +104,7 @@ const FooterLeft = () => {
             </defs>
           </svg>
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/JustPushEat" target="_blank" rel="noopener noreferrer">
           <svg
             width="33.33"
             height="33.33"
@@ -226,13 +226,13 @@ const FooterLeft = () => {
       {/* Logo Text */}
       <div className="lg:hidden flex font-sans ml-6 mt-4 justify-between">
         <div className="flex">
-          <img src={LogoImage} alt="Viking" className="w-auto h-auto" />
+          <img src={LogoImage} alt="Viking" className="w-20 h-auto" />
         </div>
-        <div className="flex flex-row space-x-2 justify-end mr-4">
+        <div className="flex flex-row space-x-1 justify-end mr-4">
           {" "}
           {/* Added space-x-4 and ml-4 */}
           <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/company/pusheat/?viewAsMember=true"
           target="_blank"
           rel="noopener noreferrer">
           <svg
@@ -286,7 +286,7 @@ const FooterLeft = () => {
             </defs>
           </svg>
         </a>
-        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.tiktok.com/@justpusheat" target="_blank" rel="noopener noreferrer">
           <svg
             width="33.33"
             height="33.33"
@@ -328,7 +328,7 @@ const FooterLeft = () => {
             </defs>
           </svg>
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/JustPushEat" target="_blank" rel="noopener noreferrer">
           <svg
             width="33.33"
             height="33.33"

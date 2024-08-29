@@ -41,31 +41,24 @@ const MainContent = () => {
       </div>
       <div className="lg:w-[45%] lg:ml-[55%] mt-8 lg:mt-0 md:px-10">
         <Navbar />
-        <h1 className="text-[36px] lg:text-[66px] font-black font-averta text-[#444a52]">
-          Destination
+        <h1 className="text-[30px] lg:text-[45px] font-black font-averta text-[#444a52]">
+          Who We Are
         </h1>
         <div className="font-nexa">
           {" "}
-          <p className="mt-4 text-[18px] lg:text-[22px] text-[#444a52] font-normal">
-            Quid turpius quam sapientis vitam ex insipientium sermone pendere?
-            Et non ex maxima parte de tota iudicabis? Videamus igitur sententias
-            eorum, tum ad verba redeamus. Quae sequuntur igitur?
+          <p className="mt-4 text-[16px] lg:text-[20px] text-[#444a52] font-medium">
+            Meet the Flavour Force, a quirky bunch of food lovers, tech geeks,
+            and creative minds, united by our love for all things food and our
+            passion for solving the world's hunger pangs.
           </p>
-        </div>
-
-        <div className="flex flex-row mt-4 border px-8 py-5 border-[#444a52] justify-between text-[18px] lg:text-[22px] font-nexa text-[#444a52]">
-          <p className="font-bold">Paris</p> <p>June 16 - 21</p>
-        </div>
-
-        <div className="flex flex-row mt-4 border px-8 py-5 border-[#444a52] justify-between text-[18px] lg:text-[22px] font-nexa text-[#444a52]">
-          <p className="font-bold">Milan</p> <p>July 23 - 28</p>
-        </div>
-        <div className="flex flex-row mt-4 border px-8 py-5 border-[#444a52] justify-between text-[18px] lg:text-[22px] font-nexa text-[#444a52]">
-          <p className="font-bold">Vienna</p> <p>August 8- 18</p>
-        </div>
-
-        <div className="flex flex-row mt-4 border px-8 py-5 border-[#444a52] justify-between text-[18px] lg:text-[22px] font-nexa text-[#444a52]">
-          <p className="font-bold">Amsterdam</p> <p>September 16 - 21</p>
+          <p className="mt-4 text-[16px] lg:text-[20px] text-[#444a52] font-medium">
+            We might be lost in a Scrabble match or binge-watching the latest
+            anime, but rest assured, our minds are always working on innovative
+            ways to make your food experience more delicious and convenient. So,
+            whether you're a foodie, a techie, or just someone who's tired of
+            the same old meal routine, we're here to satisfy your cravings and
+            tickle your taste buds.
+          </p>
         </div>
 
         <div className="space-y-6 my-12">

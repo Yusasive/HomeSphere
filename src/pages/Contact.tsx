@@ -16,7 +16,7 @@ const MainContent = () => {
       </div>
       <div className="lg:w-[45%] lg:ml-[55%] mt-8 lg:mt-0 md:px-10">
         <Navbar />
-        <h1 className="text-[36px] lg:text-[66px] font-black font-averta text-[#444a52]">
+        <h1 className="text-[30px] lg:text-[45px] font-black font-averta text-[#444a52]">
           Contact
         </h1>
         <p className="mt-4 text-[18px] lg:text-[22px] font-nexa text-[#444a52]">
