@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 .App {
+  background-color:#f5f4f0;
   text-align: center;
   font-family: 'Nexa', sans-serif;
   font-family: 'Averta', sans-serif;
