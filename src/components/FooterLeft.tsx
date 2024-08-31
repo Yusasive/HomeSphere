@@ -218,15 +218,15 @@ const FooterLeft = () => {
       <div className="hidden lg:flex lg:mt-auto ">
         <img
           src={PushEat}
-          alt="Viking"
+          alt="Push Eat"
           className="w-auto h-auto rotate-90 md:rotate-0"
         />
       </div>
 
       {/* Logo Text */}
-      <div className="lg:hidden flex font-sans ml-6 mt-4 justify-between">
+      <div className="lg:hidden flex font-sans ml-5 mt-4 justify-between">
         <div className="flex">
-          <img src={LogoImage} alt="Viking" className="w-20 h-auto" />
+          <img src={LogoImage} alt="Push Eat" className="w-[117px] h-auto" />
         </div>
         <div className="flex flex-row space-x-1 justify-end mr-4">
           {" "}

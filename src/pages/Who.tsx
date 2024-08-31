@@ -7,8 +7,8 @@ import FooterLeft from "../components/FooterLeft";
 
 const MainContent = () => {
   return (
-    <div className="flex flex-col lg:flex-row px-8 md:pl-16 pt-2 md:pt-0">
-      <div className="w-full md:w-[75%] lg:w-[50%] relative lg:fixed h-[34rem] md:h-96">
+    <div className="flex flex-col lg:flex-row px-1 md:px-8 md:pl-16 pt-2 md:pt-0">
+      <div className="w-full lg:w-[55%] relative lg:fixed h-[34rem] md:h-96">
         <Carousel
           showThumbs={false}
           autoPlay
@@ -39,19 +39,19 @@ const MainContent = () => {
           </div>
         </Carousel>
       </div>
-      <div className="lg:w-[45%] lg:ml-[55%] mt-8 lg:mt-0 md:px-10">
+      <div className="lg:w-[42%] lg:ml-[58%] px-5 mt-8 lg:mt-0 md:pl-10">
         <Navbar />
-        <h1 className="text-[30px] lg:text-[45px] font-black font-averta text-[#444a52]">
+        <h1 className="text-[30px] lg:text-5xl font-black font-averta text-[#444a52]">
           Who We Are
         </h1>
         <div className="font-nexa">
           {" "}
-          <p className="mt-4 text-[16px] lg:text-[20px] text-[#444a52] font-medium">
+          <p className="mt-4 text-base text-[#444a52] font-medium">
             Meet the Flavour Force, a quirky bunch of food lovers, tech geeks,
             and creative minds, united by our love for all things food and our
             passion for solving the world's hunger pangs.
           </p>
-          <p className="mt-4 text-[16px] lg:text-[20px] text-[#444a52] font-medium">
+          <p className="mt-4 text-base text-[#444a52] font-medium">
             We might be lost in a Scrabble match or binge-watching the latest
             anime, but rest assured, our minds are always working on innovative
             ways to make your food experience more delicious and convenient. So,
@@ -61,8 +61,8 @@ const MainContent = () => {
           </p>
         </div>
 
-        <div className="space-y-6 my-12">
-          <hr className=" border-gray-600" />
+       <hr className=" border-gray-600 my-10" />
+        <div>
           <Footers />
         </div>
       </div>

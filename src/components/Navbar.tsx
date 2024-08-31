@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     <>
     
       <nav className="py-8">
-        <div className="container md:mx-auto flex flex-col md:flex-row justify-between space-y-2 md:space-y-0 md:py-6 md:pr-4 transition-all duration-300 ease-in-out">
+        <div className="container md:mx-auto flex flex-col md:flex-row justify-between space-y-2 md:space-y-0 md:py-6 md:pr-1 transition-all duration-300 ease-in-out">
           <NavLink
             to="/"
             className={({ isActive }) =>
