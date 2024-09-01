@@ -13,7 +13,7 @@ const MainContent = () => {
       <div className="lg:w-[55%] relative lg:fixed h-[34rem] md:h-lvh">
         <video
           className="border-1 border-[#f5f4f0] shadow-lg shadow-[#f5f4f0]  md:ml-6  w-full h-[34rem] md:w-lvw md:h-lvh bg-[#f5f4f0] rounded-lg lg:rounded-none"
-          src="https://res.cloudinary.com/ddxssowqb/video/upload/v1725095272/sample_vid_1_x30tyw.mp4"
+          src="https://res.cloudinary.com/ddxssowqb/video/upload/v1725138194/sample_vid_2_y6q8xo.mp4"
           controls
           autoPlay
           loop
