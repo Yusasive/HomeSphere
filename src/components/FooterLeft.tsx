@@ -230,7 +230,7 @@ const FooterLeft = () => {
       </div>
 
       {/* Logo Text */}
-      <div className="lg:hidden flex font-sans ml-5 mt-4 justify-between">
+      <div className="lg:hidden flex font-sans ml-3 mt-4 justify-between">
         <div className="flex">
           <img src={LogoImage} alt="Push Eat" className="w-[117px] h-auto" />
         </div>
