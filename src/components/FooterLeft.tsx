@@ -4,7 +4,7 @@ import LogoImage from "../assets/Logo.png";
 
 const FooterLeft = () => {
   return (
-    <div className="md:fixed lg:flex-col md:flex  lg:h-screen lg:w-16 w-full bottom-0 lg:left-0 lg:items-start  lg:justify-start p-4 lg:space-y-2 space-x-4 lg:space-x-0">
+    <div className="md:fixed lg:flex-col md:flex lg:h-screen lg:w-16 w-full bottom-0 lg:left-0 lg:items-start lg:justify-start p-4 lg:space-y-2 space-x-4 lg:space-x-0">
       {/* Social Icons */}
       <div className="hidden lg:flex lg:flex-col lg:space-y-4 space-x-4 lg:space-x-0">
         <a
@@ -221,11 +221,11 @@ const FooterLeft = () => {
       <div className="hidden lg:flex lg:flex-grow"></div>
 
       {/* Logo */}
-      <div className="hidden lg:flex lg:mt-auto ">
+      <div className="hidden lg:flex lg:mt-auto">
         <img
           src={PushEat}
           alt="Push Eat"
-          className="w-auto h-auto rotate-90 md:rotate-0"
+          className="w-auto h-auto rotate-90 md:rotate-0 animate-bounce-custom"
         />
       </div>
 
@@ -235,7 +235,6 @@ const FooterLeft = () => {
           <img src={LogoImage} alt="Push Eat" className="w-[117px] h-auto" />
         </div>
         <div className="flex flex-row space-x-1 justify-end mr-4">
-          {" "}
           {/* Added space-x-4 and ml-4 */}
           <a
             href="https://www.linkedin.com/company/pusheat/?viewAsMember=true"

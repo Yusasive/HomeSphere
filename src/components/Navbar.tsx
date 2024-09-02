@@ -11,8 +11,8 @@ const Navbar: React.FC = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "text-[#01AA1B] text-[12px] font-semibold font-nexa"
-                : "text-[12px]  font-semibold text-[#444a52] font-nexa"
+                ? "text-[#01AA1B] text-[12px] font-semibold font-averta-"
+                : "text-[12px] font-semibold text-[#444a52] font-averta"
             }
             style={{ transitionDelay: "100ms" }}>
             WHAT WE'RE BUILDING
@@ -22,8 +22,8 @@ const Navbar: React.FC = () => {
             to="/who-we-are"
             className={({ isActive }) =>
               isActive
-                ? "text-[#01AA1B] text-[12px]  font-semibold font-nexa"
-                : "text-[12px]  font-semibold text-[#444a52] font-nexa"
+                ? "text-[#01AA1B] text-[12px] font-semibold font-averta"
+                : "text-[12px] font-semibold text-[#444a52] font-averta"
             }
             style={{ transitionDelay: "200ms" }}>
             WHO WE ARE
@@ -33,8 +33,8 @@ const Navbar: React.FC = () => {
             to="/pushing-chefs"
             className={({ isActive }) =>
               isActive
-                ? "text-[#01AA1B] text-[12px]  font-semibold font-nexa"
-                : "text-[12px]  font-semibold text-[#444a52] font-nexa"
+                ? "text-[#01AA1B] text-[12px] font-semibold font-averta"
+                : "text-[12px] font-semibold text-[#444a52] font-averta"
             }
             style={{ transitionDelay: "300ms" }}>
             PUSHING CHEFS
@@ -44,8 +44,8 @@ const Navbar: React.FC = () => {
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? "text-[#01AA1B] text-[12px]  font-semibold font-nexa"
-                : "text-[12px]  font-semibold text-[#444a52] font-nexa"
+                ? "text-[#01AA1B] text-[12px]   font-semibold font-averta"
+                : "text-[12px] font-semibold text-[#444a52] font-averta"
             }
             style={{ transitionDelay: "400ms" }}>
             CONTACT
