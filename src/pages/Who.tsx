@@ -43,16 +43,16 @@ const MainContent = () => {
       <div className="lg:w-[42%] lg:ml-[59%] px-5 mt-8 lg:mt-0 md:pl-10 flex flex-col justify-between">
         <div>
           <Navbar />
-          <h1 className="text-[34px] lg:text-5xl font-black font-averta text-[#444a52]">
+          <h1 className="text-[34px] lg:text-[55px] font-black font-averta text-[#444a52]">
             Who We Are
           </h1>
           <div className="font-averta">
-            <p className="mt-4 text-[17px] text-[#444a52] font-medium">
+            <p className="mt-4 text-[17px] lg:text-[30px] text-[#444a52] font-medium">
               Meet the Flavour Force, a quirky bunch of food lovers, tech geeks,
               and creative minds, united by our love for all things food and our
               passion for solving the world's hunger pangs.
             </p>
-            <p className="mt-4 text-[17px] text-[#444a52] font-medium">
+            <p className="mt-4 text-[17px] lg:text-[30px] text-[#444a52] font-medium">
               We might be lost in a Scrabble match or binge-watching the latest
               anime, but rest assured, our minds are always working on innovative
               ways to make your food experience more delicious and convenient. So,

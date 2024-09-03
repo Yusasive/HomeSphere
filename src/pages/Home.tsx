@@ -22,18 +22,18 @@ const MainContent = () => {
       <div className="lg:w-[41%] px-5 lg:ml-[60%] mt-8 lg:mt-0 md:pl-10 flex flex-col justify-between">
         <div>
           <Navbar />
-          <h1 className="text-[34px] lg:text-5xl font-black font-averta text-[#444a52]">
+          <h1 className="text-[34px] lg:text-[55px] font-black font-averta text-[#444a52]">
             What We're Building
           </h1>
           <p
-            className="mt-4 text-[17px] text-[#444a52] font-medium font-averta"
+            className="mt-4 text-[17px] lg:text-[30px] text-[#444a52] font-medium font-averta"
             style={{ fontFamily: "Averta, sans-serif" }}>
             We are building a social food deals app that allows you to buy
             freshly-made meals, recipes, groceries, and other food-related items
             directly from online chefs and food content creators.
           </p>
           <p
-            className="mt-4 text-[17px] text-[#444a52] font-medium font-averta"
+            className="mt-4 text-[17px] lg:text-[30px] text-[#444a52] font-medium font-averta"
             style={{ fontFamily: "Averta, sans-serif" }}>
             We’re like the TikTok that lets you buy the burger, falafel, or
             spoons set posted online by chefs and content creators at a deal

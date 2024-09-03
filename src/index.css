@@ -50,22 +50,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-@keyframes bounce-custom {
+@keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-20px);
+    transform: translateY(-30px); 
   }
   60% {
-    transform: translateY(-10px);
+    transform: translateY(-15px); 
   }
 }
 
-.animate-bounce-custom {
-  animation: bounce-custom 2s infinite; /* Bounce duration */
-  animation-delay: 4s; /* Wait time before first bounce */
-  animation-timing-function: ease-in-out;
+.bounce {
+  animation: bounce 2s ease-in-out infinite;
 }
-
