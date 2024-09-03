@@ -26,8 +26,8 @@ const Navbar: React.FC = () => {
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#01AA1B] text-[12px] lg:text-[20px] font-semibold font-averta-"
-                  : "text-[12px] lg:text-[20px] font-semibold text-[#444a52] font-averta"
+                  ? "text-[#01AA1B] text-[12px] lg:text-[16px] font-semibold font-averta-"
+                  : "text-[12px] lg:text-[16px] font-semibold text-[#444a52] font-averta"
               }
               onClick={() => handleLinkClick("/")}
               style={{ transitionDelay: "100ms" }}
@@ -39,8 +39,8 @@ const Navbar: React.FC = () => {
               to="/who-we-are"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#01AA1B] text-[12px] lg:text-[20px] font-semibold font-averta"
-                  : "text-[12px] lg:text-[20px] font-semibold text-[#444a52] font-averta"
+                  ? "text-[#01AA1B] text-[12px] lg:text-[16px] font-semibold font-averta"
+                  : "text-[12px] lg:text-[16px] font-semibold text-[#444a52] font-averta"
               }
               onClick={() => handleLinkClick("/who-we-are")}
               style={{ transitionDelay: "200ms" }}
@@ -52,8 +52,8 @@ const Navbar: React.FC = () => {
               to="/pushing-chefs"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#01AA1B] text-[12px] lg:text-[20px] font-semibold font-averta"
-                  : "text-[12px] lg:text-[20px] font-semibold text-[#444a52] font-averta"
+                  ? "text-[#01AA1B] text-[12px] lg:text-[16px] font-semibold font-averta"
+                  : "text-[12px] lg:text-[16px] font-semibold text-[#444a52] font-averta"
               }
               onClick={() => handleLinkClick("/pushing-chefs")}
               style={{ transitionDelay: "300ms" }}
@@ -65,8 +65,8 @@ const Navbar: React.FC = () => {
               to="/contact"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#01AA1B] text-[12px] lg:text-[20px]  font-semibold font-averta"
-                  : "text-[12px] lg:text-[20px] font-semibold text-[#444a52] font-averta"
+                  ? "text-[#01AA1B] text-[12px] lg:text-[16px]  font-semibold font-averta"
+                  : "text-[12px] lg:text-[16px] font-semibold text-[#444a52] font-averta"
               }
               onClick={() => handleLinkClick("/contact")}
               style={{ transitionDelay: "400ms" }}
