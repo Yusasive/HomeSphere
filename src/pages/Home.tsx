@@ -26,14 +26,14 @@ const MainContent = () => {
             What We're Building
           </h1>
           <p
-            className="mt-4 text-[17px] lg:text-[18px] text-[#444a52] font-medium font-averta"
+            className="mt-4 text-[17px] lg:text-[19px] text-[#444a52] font-medium font-averta"
             style={{ fontFamily: "Averta, sans-serif" }}>
             We are building a social food deals app that allows you to buy
             freshly-made meals, recipes, groceries, and other food-related items
             directly from online chefs and food content creators.
           </p>
           <p
-            className="mt-4 text-[17px] lg:text-[18px] text-[#444a52] font-medium font-averta"
+            className="mt-4 text-[17px] lg:text-[19px] text-[#444a52] font-medium font-averta"
             style={{ fontFamily: "Averta, sans-serif" }}>
             We’re like the TikTok that lets you buy the burger, falafel, or
             spoons set posted online by chefs and content creators at a deal

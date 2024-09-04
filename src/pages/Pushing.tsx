@@ -19,19 +19,19 @@ const MainContent = () => {
           <h1 className="text-[34px] lg:text-[55px] font-black font-averta text-[#444a52]">
             Pricing
           </h1>
-          <p className="mt-4 text-[17px] lg:text-[30px] font-averta text-[#444a52]">
+          <p className="mt-4 text-[17px] lg:text-[19px] font-averta text-[#444a52]">
             We know you make a lot of amazing food contents on your social
             platforms like Instagram, TikTok, and others. We also know that most
             times, the best reward you get from the contents you worked so hard
             to make are likes and comments, with very few people actually coming
             to your DMs to buy.
           </p>
-          <p className="mt-4 text-[17px] lg:text-[30px] font-averta text-[#444a52]">
+          <p className="mt-4 text-[17px] lg:text-[19px] font-averta text-[#444a52]">
             Ne tum quidem te respicies et cogitabis sibi quemque natum esse et
             suis voluptatibus? Et nunc quidem quod eam tuetur, ut de vite
             potissimum loquar, est id extrinsecus.
           </p>
-          <p className="mt-4 text-[17px] lg:text-[30px] font-averta text-[#444a52]">
+          <p className="mt-4 text-[17px] lg:text-[19px] font-averta text-[#444a52]">
             Videamus igitur sententias eorum?
           </p>
         </div>

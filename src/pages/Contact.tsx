@@ -19,17 +19,17 @@ const MainContent = () => {
           <h1 className="text-[34px] lg:text-[55px] font-black font-averta text-[#444a52]">
             Contact
           </h1>
-          <p className="mt-4 text-[17px] lg:text-[30px] font-averta text-[#444a52]">
+          <p className="mt-4 text-[17px] lg:text-[19px] font-averta text-[#444a52]">
             Quid turpius quam sapientis vitam ex insipientium sermone pendere? Et
             non ex maxima parte de tota iudicabis? Videamus igitur sententias
             eorum, tum ad verba redeamus. Quae sequuntur igitur?
           </p>
-          <p className="mt-4 text-[17px] lg:text-[30px] font-averta text-[#444a52]">
+          <p className="mt-4 text-[17px] lg:text-[19px] font-averta text-[#444a52]">
             Ne tum quidem te respicies et cogitabis sibi quemque natum esse et
             suis voluptatibus? Et nunc quidem quod eam tuetur, ut de vite
             potissimum loquar, est id extrinsecus.
           </p>
-          <p className="mt-4 text-[17px] lg:text-[30px] font-averta text-[#444a52]">
+          <p className="mt-4 text-[17px] lg:text-[19px] font-averta text-[#444a52]">
             Videamus igitur sententias eorum?
           </p>
         </div>
