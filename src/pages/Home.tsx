@@ -19,7 +19,10 @@ const MainContent = () => {
       </div>
 
       {/* Text Content and Footer */}
-      <div className="lg:w-[41%] px-5 lg:ml-[60%] mt-8 lg:mt-0 md:pl-10 flex flex-col justify-between">
+      <div className="lg:w-[41%] px-5 lg:ml-[60%] mt-8 lg:mt-0 md:pl-10 flex flex-col justify-between bg-icons-pattern bg-no-repeat"  style={{
+        backgroundPosition: "10% 10%, 30% 30%, 50% 50%, 70% 70%",
+        backgroundSize: "100px 100px, 100px 100px, 40px 40px, 40px 40px"
+      }}>
         <div>
           <Navbar />
           <h1 className="text-[34px] lg:text-[50px] font-black font-averta text-[#444a52]">
@@ -29,15 +32,22 @@ const MainContent = () => {
             className="mt-4 text-[17px] lg:text-[19px] text-[#444a52] font-medium font-averta"
             style={{ fontFamily: "Averta, sans-serif" }}>
             We are building a social food deals app that allows you to buy
-            freshly-made meals, recipes, groceries, and other food-related items
+            freshly-made meals, recipes, groceries and other food-related items
             directly from online chefs and food content creators.
           </p>
           <p
             className="mt-4 text-[17px] lg:text-[19px] text-[#444a52] font-medium font-averta"
             style={{ fontFamily: "Averta, sans-serif" }}>
-            We’re like the TikTok that lets you buy the burger, falafel, or
+            We’re like the TikTok that lets you buy the burger, falafel or
             spoons set posted online by chefs and content creators at a deal
             price.
+          </p>
+          <p
+            className="mt-4 text-[17px] lg:text-[19px] text-[#444a52] font-medium font-averta"
+            style={{ fontFamily: "Averta, sans-serif" }}>
+            With Pusheat, you can enjoy incredible deal prices on your favourite
+            food, recipe, food item, or grocery from top online chefs. We
+            deliver to your doorstep
           </p>
         </div>
         <div className="mt-auto">
