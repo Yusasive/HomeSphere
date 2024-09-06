@@ -15,25 +15,24 @@ const MainContent = () => {
           infiniteLoop
           showStatus
           interval={4000}
-          transitionTime={500}
-        >
+          transitionTime={500}>
           <div className="h-[34rem] md:h-full">
             <img
-              src="https://th.bing.com/th?id=OIP.nyLAzWYdvc-wb9ntq1cU7QHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2"
+              src="https://ik.imagekit.io/gmp5huxyc/medium-shot-man-cooking-with-smartphone%20(1).jpg?updatedAt=1725566041105"
               alt="Image1"
               className="w-full h-full object-cover bg-[#f5f4f0]"
             />
           </div>
           <div className="h-[34rem] md:h-full">
             <img
-              src="https://th.bing.com/th/id/OIP.8SXzYjtNYalr9QJRQRNvZgHaHa?w=201&h=201&c=7&r=0&o=5&pid=1.7"
+              src="https://ik.imagekit.io/gmp5huxyc/medium-shot-man-cooking-with-smartphone.jpg?updatedAt=1725566105516"
               alt="Image2"
               className="w-full h-full object-cover bg-[#f5f4f0]"
             />
           </div>
           <div className="h-[34rem] md:h-full">
             <img
-              src="https://th.bing.com/th/id/OIP.voVmH_P-WhYnjVZYb-WUhwHaHa?w=176&h=180&c=7&r=0&o=5&pid=1.7"
+              src="https://ik.imagekit.io/gmp5huxyc/medium-shot-man-cooking-with-smartphone%20(2).jpg?updatedAt=1725566119315"
               alt="Image3"
               className="w-full h-full object-cover bg-[#f5f4f0]"
             />
@@ -48,17 +47,17 @@ const MainContent = () => {
           </h1>
           <div className="font-averta">
             <p className="mt-4 text-[17px] lg:text-[19px] text-[#444a52] font-medium">
-              Meet the Flavour Force, a quirky bunch of food lovers, tech geeks,
+              Meet the Push Force, a quirky bunch of food lovers, tech geeks,
               and creative minds, united by our love for all things food and our
               passion for solving the world's hunger pangs.
             </p>
             <p className="mt-4 text-[17px] lg:text-[19px] text-[#444a52] font-medium">
               We might be lost in a Scrabble match or binge-watching the latest
-              anime, but rest assured, our minds are always working on innovative
-              ways to make your food experience more delicious and convenient. So,
-              whether you're a foodie, a techie, or just someone who's tired of
-              the same old meal routine, we're here to satisfy your cravings and
-              tickle your taste buds.
+              anime, but rest assured, our minds are always working on
+              innovative ways to make your food experience more delicious and
+              convenient. So, whether you're a foodie, a techie, or just someone
+              who's tired of the same old meal routine, we're here to satisfy
+              your cravings and tickle your taste buds
             </p>
           </div>
         </div>
@@ -84,4 +83,3 @@ const PageLayout = () => {
 };
 
 export default PageLayout;
-
