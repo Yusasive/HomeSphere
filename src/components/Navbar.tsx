@@ -5,28 +5,27 @@ const Navbar: React.FC = () => {
   const [activeLink, setActiveLink] = useState<string | null>(null);
   const [dropdownVisible, setDropdownVisible] = useState<boolean>(false);
 
-  // Handler to toggle dropdown menu visibility
+  // Toggle dropdown visibility
   const toggleDropdown = () => {
     setDropdownVisible(!dropdownVisible);
   };
 
-  // Handler to set active link and close dropdown
+  // Set active link when clicked and hide dropdown
   const handleLinkClick = (link: string) => {
     setActiveLink(link);
     setDropdownVisible(false);
   };
 
   return (
-    <nav className="py-8">
+    <nav className="py-8 relative">
       <div className="container md:mx-auto flex flex-col md:flex-row justify-between space-y-2 md:space-y-0 md:py-6 md:pr-1 transition-all duration-300 ease-in-out">
-        {/* Conditional rendering of the active link */}
         {activeLink === null ? (
           <>
             <NavLink
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#01AA1B] text-[12px] lg:text-[14x] font-semibold font-averta-"
+                  ? "text-[#01AA1B] text-[12px] lg:text-[14px] font-semibold font-averta"
                   : "text-[12px] lg:text-[14px] font-semibold text-[#444a52] font-averta"
               }
               onClick={() => handleLinkClick("/")}
@@ -65,7 +64,7 @@ const Navbar: React.FC = () => {
               to="/contact"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#01AA1B] text-[12px] lg:text-[14px]  font-semibold font-averta"
+                  ? "text-[#01AA1B] text-[12px] lg:text-[14px] font-semibold font-averta"
                   : "text-[12px] lg:text-[14px] font-semibold text-[#444a52] font-averta"
               }
               onClick={() => handleLinkClick("/contact")}
@@ -75,18 +74,17 @@ const Navbar: React.FC = () => {
             </NavLink>
           </>
         ) : (
-          // Show only the active link
+          // Display only the active link
           <div className="flex flex-col items-center">
             <NavLink
               to={activeLink}
-              className="text-[#01AA1B] text-[12px] lg:text-[20px] font-semibold font-averta"
+              className="text-[#01AA1B] text-[12px] lg:text-[14px] font-semibold font-averta"
             >
               {activeLink === "/" && "WHAT WE'RE BUILDING"}
               {activeLink === "/who-we-are" && "WHO WE ARE"}
               {activeLink === "/pushing-chefs" && "PUSHING CHEFS"}
               {activeLink === "/contact" && "CONTACT"}
             </NavLink>
-            {/* Dropdown menu */}
             <button
               className="mt-4 px-4 py-2 bg-[#01AA1B] text-white rounded"
               onClick={toggleDropdown}
@@ -94,7 +92,7 @@ const Navbar: React.FC = () => {
               More
             </button>
             {dropdownVisible && (
-              <div className="absolute top-full right-0 bg-white shadow-lg mt-2 rounded">
+              <div className="absolute top-full right-0 bg-white shadow-lg mt-2 rounded z-10">
                 <NavLink
                   to="/"
                   className="block px-4 py-2 text-[#444a52] hover:bg-gray-100"
