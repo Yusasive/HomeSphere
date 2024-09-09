@@ -3,12 +3,17 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Footers from "../components/Footer";
 import Navbar from "../components/Navbar";
+import DesktopBar from "../components/DesktopBar";
 import FooterLeft from "../components/FooterLeft";
 
 const MainContent = () => {
   return (
     <div className="flex flex-col lg:flex-row px-1 md:px-8 md:pl-16 pt-2 md:pt-0 min-h-screen">
       <div className="w-full lg:w-[56%] relative lg:fixed h-[34rem] md:h-96">
+      <div className="flex lg:hidden">
+            {" "}
+            <Navbar />
+          </div>
         <Carousel
           showThumbs={false}
           autoPlay
@@ -41,7 +46,9 @@ const MainContent = () => {
       </div>
       <div className="lg:w-[42%] lg:ml-[59%] px-5 mt-8 lg:mt-0 md:pl-10 flex flex-col justify-between">
         <div>
-          <Navbar />
+        <div className="hidden lg:flex">
+            <DesktopBar />
+          </div>
           <h1 className="text-[34px] lg:text-[55px] font-black font-averta text-[#444a52]">
             Who We Are
           </h1>

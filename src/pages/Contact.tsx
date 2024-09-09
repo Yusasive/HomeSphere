@@ -2,11 +2,17 @@ import React from "react";
 import Footers from "../components/Footer";
 import Navbar from "../components/Navbar";
 import FooterLeft from "../components/FooterLeft";
+import DesktopBar from "../components/DesktopBar";
 
 const MainContent = () => {
   return (
     <div className="flex flex-col lg:flex-row px-2 lg:px-8 pt-2 md:pt-0 min-h-screen">
+      
       <div className="lg:w-[56%] relative lg:fixed h-full">
+      <div className="flex lg:hidden">
+            {" "}
+            <Navbar />
+          </div>
         <img
           className="md:ml-8 w-full h-[34rem] md:w-full md:h-full bg-[#f5f4f0] rounded-lg lg:rounded-none"
           src="https://res.cloudinary.com/ddxssowqb/image/upload/v1725362424/delicious-sushi-table_xsw5ns.jpg"
@@ -15,7 +21,9 @@ const MainContent = () => {
       </div>
       <div className="lg:w-[41%] lg:ml-[60%] px-5 mt-8 lg:mt-0 md:pl-10 flex flex-col justify-between">
         <div>
-          <Navbar />
+        <div className="hidden lg:flex">
+            <DesktopBar />
+          </div>
           <h1 className="text-[34px] lg:text-[55px] font-black font-averta text-[#444a52]">
             Contact
           </h1>

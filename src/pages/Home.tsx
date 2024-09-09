@@ -2,12 +2,17 @@ import React from "react";
 import Footers from "../components/Footer";
 import Navbar from "../components/Navbar";
 import FooterLeft from "../components/FooterLeft";
+import DesktopBar from "../components/DesktopBar";
 
 const MainContent = () => {
   return (
     <div className="flex flex-col lg:flex-row px-2 lg:px-8 pt-2 md:pt-0 min-h-screen">
       {/* Video Section */}
       <div className="lg:w-[55.5%] relative lg:fixed h-[34rem] md:h-screen md:ml-8">
+      <div className="flex lg:hidden">
+            {" "}
+            <Navbar />
+          </div>
         <video
           className="w-full h-full object-cover bg-[#f5f4f0] rounded-lg md:rounded-none shadow-lg shadow-[#f5f4f0]"
           src="https://res.cloudinary.com/ddxssowqb/video/upload/v1725138194/sample_vid_2_y6q8xo.mp4"
@@ -19,12 +24,16 @@ const MainContent = () => {
       </div>
 
       {/* Text Content and Footer */}
-      <div className="lg:w-[41%] px-5 lg:ml-[60%] mt-8 lg:mt-0 md:pl-10 flex flex-col justify-between bg-icons-pattern bg-no-repeat"  style={{
-        backgroundPosition: "10% 10%, 30% 30%, 50% 50%, 70% 70%",
-        backgroundSize: "100px 100px, 100px 100px, 40px 40px, 40px 40px"
-      }}>
+      <div
+        className="lg:w-[41%] px-5 lg:ml-[60%] mt-8 lg:mt-0 md:pl-10 flex flex-col justify-between bg-icons-pattern bg-no-repeat"
+        style={{
+          backgroundPosition: "10% 10%, 30% 30%, 50% 50%, 70% 70%",
+          backgroundSize: "100px 100px, 100px 100px, 40px 40px, 40px 40px",
+        }}>
         <div>
-          <Navbar />
+          <div className="hidden lg:flex">
+            <DesktopBar />
+          </div>
           <h1 className="text-[34px] lg:text-[50px] font-black font-averta text-[#444a52]">
             What We're Building
           </h1>
