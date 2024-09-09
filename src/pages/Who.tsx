@@ -18,21 +18,21 @@ const MainContent = () => {
           transitionTime={500}>
           <div className="h-[34rem] md:h-full">
             <img
-              src="https://ik.imagekit.io/gmp5huxyc/medium-shot-man-cooking-with-smartphone%20(1).jpg?updatedAt=1725566041105"
+              src="https://res.cloudinary.com/ddxssowqb/image/upload/v1725881681/IMG-20240907-WA0019_sbxovk.jpg"
               alt="Image1"
               className="w-full h-full object-cover bg-[#f5f4f0]"
             />
           </div>
           <div className="h-[34rem] md:h-full">
             <img
-              src="https://ik.imagekit.io/gmp5huxyc/medium-shot-man-cooking-with-smartphone.jpg?updatedAt=1725566105516"
+              src="https://res.cloudinary.com/ddxssowqb/image/upload/v1725881672/IMG-20240907-WA0017_rbqrqp.jpg"
               alt="Image2"
               className="w-full h-full object-cover bg-[#f5f4f0]"
             />
           </div>
           <div className="h-[34rem] md:h-full">
             <img
-              src="https://ik.imagekit.io/gmp5huxyc/medium-shot-man-cooking-with-smartphone%20(2).jpg?updatedAt=1725566119315"
+              src="https://res.cloudinary.com/ddxssowqb/image/upload/v1725881666/IMG-20240907-WA0015_p1yfiu.jpg"
               alt="Image3"
               className="w-full h-full object-cover bg-[#f5f4f0]"
             />
